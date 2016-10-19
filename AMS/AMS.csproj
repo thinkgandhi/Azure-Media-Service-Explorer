@@ -129,6 +129,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RibbonControlsLibrary\v4.0\RibbonControlsLibrary_v40.csproj">
+      <Project>{2ca5e547-4567-45c9-8240-a408bca5c714}</Project>
+      <Name>RibbonControlsLibrary_v40</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
